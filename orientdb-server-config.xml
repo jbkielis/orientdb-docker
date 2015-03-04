@@ -145,6 +145,8 @@
         </cluster>
     </network>
     <storages>
+      <storage name="test" userName="admin" userPassword="admin" path='memory:test' loaded-at-startup="true" />
+      <storage name="development" userName="admin" userPassword="admin" path="plocal:/opt/orientdb/databases/development" loaded-at-startup="true" />
     </storages>
     <users>
       <user resources="*" password="root" name="root"/>
