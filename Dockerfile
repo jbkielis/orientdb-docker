@@ -32,6 +32,7 @@ RUN cd && \
 # use supervisord to start orientdb
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD orientdb-server-config.xml /opt/orientdb/config/orientdb-server-config.xml
+ADD https://github.com/orientechnologies/orientdb-lucene/releases/download/2.0-SNAPHOST/orientdb-lucene-2.0-SNAPSHOT-dist.jar /opt/orientdb/plugins/
 
 EXPOSE 2424
 EXPOSE 2480
