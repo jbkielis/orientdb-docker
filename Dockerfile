@@ -4,7 +4,7 @@
 # http://crosbymichael.com/dockerfile-best-practices-take-2.html
 ############################################################
 
-FROM vagas/orientdb-base
+FROM vagas/orientdb-base:2.0.4
 
 MAINTAINER Ronie Uliana (ronie.uliana@vagas.com.br)
 
